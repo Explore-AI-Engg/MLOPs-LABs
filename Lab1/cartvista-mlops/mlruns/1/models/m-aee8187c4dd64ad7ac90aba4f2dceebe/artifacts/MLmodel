@@ -1,0 +1,24 @@
+artifact_path: /Users/sm295@apac.comcast.com/Documents/personal/AI_Ml/AI_Experiment
+  /MLOps Lab Traning/Exercise/Lab1/cartvista-mlops/mlruns/1/models/m-aee8187c4dd64ad7ac90aba4f2dceebe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-aee8187c4dd64ad7ac90aba4f2dceebe
+model_size_bytes: 11164
+model_uuid: m-aee8187c4dd64ad7ac90aba4f2dceebe
+prompts: null
+run_id: 69cb72a2981043acb1cd56c70de109ce
+utc_time_created: '2026-11-25 06:40:04.856328'
